@@ -72,7 +72,7 @@ Zephyr, it's:
 **On the panels**
 - [Glance](https://github.com/divinae/glance-plasmoid): the window's menus, music, notifications,
   meetings, controls and a focus timer, in a vertical strip with a drawer (mine)
-- [Taskline](https://github.com/divinae/taskline): the dock's task manager (my fork of Fancy Tasks NG)
+- [Taskline](https://github.com/divinae/taskline-plasmoid): the dock's task manager (my fork of Fancy Tasks NG)
 - [Event Calendar NG](https://github.com/divinae/event-calendar-ng-plasmoid): the clock and the
   calendar (my redesign of Event Calendar)
 - [kara](https://github.com/dhruv8sh/kara) by Dhruvesh Surolia: the virtual desktops
