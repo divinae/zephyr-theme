@@ -23,7 +23,7 @@ small scripts that keep the apps Plasma can't reach in step when it switches bet
 | **Icons**: [Colloid](https://github.com/vinceliuice/Colloid-icon-theme), desaturated to half | Colloid-Zephyr-Lauds | Colloid-Zephyr-Compline |
 | **Konsole** colours and profile | Zephyr Lauds | Zephyr Compline |
 | **Yakuake** skin | Zephyr Lauds | Zephyr Compline |
-| **Vivaldi** theme (`apps/vivaldi/`, import the `.zip`) | Zephyr Lauds | Zephyr Compline |
+| **Vivaldi** theme (`apps/vivaldi/`, import the `.zip`; `build.sh` rebuilds it from the `.json`) | Zephyr Lauds | Zephyr Compline |
 | **Slack** sidebar theme (`apps/slack/zephyr-themes.md`) | Zephyr Lauds | Zephyr Compline |
 
 No wallpaper ships with it; `scripts/gen-zephyr-wallpaper.sh` mutes one you have to match (see
