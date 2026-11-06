@@ -65,6 +65,8 @@ Each is a small script you can run by hand too (`scripts/konsole-theme-sync.sh d
 
 ## My setup
 
+![My desktop in Zephyr Lauds: Glance in the panel on the left, Taskline as the dock](docs/setup.jpg)
+
 The previews are my desktop, and the global themes bring along its layout (System Settings asks
 before it changes your panels): a floating panel on the left and a dock at the bottom. On top of
 Zephyr, it's:
