@@ -83,7 +83,7 @@ Zephyr, it's:
 **Windows**
 - [Karousel](https://github.com/peterfajdiga/karousel) by Peter Fajdiga: scrollable tiling, with
   my [Karousel Overview](https://github.com/divinae/karousel-overview) for the overview
-- [LightlyShaders](https://github.com/autumn-mck/LightlyShaders) (autumn-mck's port of a-parhom's):
+- [KDE Rounded Corners](https://github.com/matinlotfali/KDE-Rounded-Corners) by Matin Lotfaliei:
   rounded corners and their outline
 - Bouncing Windows by bitran0, Geometry Change by Peter Fajdiga, and Kinetic's fading popups: the
   animations
