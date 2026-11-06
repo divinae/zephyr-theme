@@ -81,8 +81,11 @@ Zephyr, it's:
 - Plasma's own: the launcher, System Monitor, the system tray
 
 **Windows**
-- [Karousel](https://github.com/peterfajdiga/karousel) by Peter Fajdiga: scrollable tiling, with
-  my [Karousel Overview](https://github.com/divinae/karousel-overview) for the overview
+- [Karousel](https://github.com/peterfajdiga/karousel) by Peter Fajdiga: scrollable tiling, windows
+  in columns on an endless strip
+- [Karousel Overview](https://github.com/divinae/karousel-overview) (mine): a Niri-style overview
+  for it, every desktop as a strip of its windows, off-screen columns too; drag windows between
+  them, stack them, search ([KDE Store](https://store.kde.org/p/2379855/))
 - [KDE Rounded Corners](https://github.com/matinlotfali/KDE-Rounded-Corners) by Matin Lotfaliei:
   rounded corners and their outline
 - Bouncing Windows by bitran0, Geometry Change by Peter Fajdiga, and Kinetic's fading popups: the
