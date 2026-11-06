@@ -1,0 +1,9 @@
+{
+  "name": "slack-tray-asar-tool",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pinned @electron/asar used by slack-tray-theme.sh (avoids runtime npx fetch).",
+  "dependencies": {
+    "@electron/asar": "4.2.0"
+  }
+}

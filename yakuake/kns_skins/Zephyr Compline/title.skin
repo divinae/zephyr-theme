@@ -1,0 +1,16 @@
+[Description]
+Skin=Zephyr Compline
+Author=TheBigWazz
+Email=TheBigWazz5454@gmail.com
+Icon=/icon.png
+
+[Border]
+red=61
+green=66
+blue=74
+width=0
+
+[Background]
+back_image=/back.png
+left_corner=/back.png
+right_corner=/back.png

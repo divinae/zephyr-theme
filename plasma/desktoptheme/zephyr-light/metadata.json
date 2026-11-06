@@ -1,0 +1,29 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "lipinski.j@pm.me",
+                "Name": "divinae"
+            }
+        ],
+        "Category": "",
+        "Dependencies": [],
+        "Description": "Zephyr Light theme for plasma",
+        "EnabledByDefault": true,
+        "Id": "zephyr-light",
+        "License": "LGPL",
+        "Name": "Zephyr Light",
+        "Version": "1.0",
+        "Website": "https://plasma.kde.org"
+    },
+    "X-Plasma-API": "5.0",
+    "AdaptiveTransparency": {
+        "enabled": true
+    },
+    "ContrastEffect": {
+        "enabled": false,
+        "contrast": 0.2,
+        "intensity": 1.4,
+        "saturation": 10
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "lipinski.j@pm.me",
+                "Name": "divinae"
+            }
+        ],
+        "Description": "Zephyr Compline (dark) — Zephyr layout with a palette derived from Compline/Lauds",
+        "Id": "zephyr-compline",
+        "License": "GPL-3.0",
+        "Name": "Zephyr Compline",
+        "Website": "https://github.com/divinae/zephyr-theme"
+    },
+    "Keywords": "Desktop;Workspace;Appearance;Look and Feel;",
+    "X-Plasma-APIVersion": "2",
+    "X-Plasma-MainScript": "default"
+}

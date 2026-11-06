@@ -1,0 +1,16 @@
+[Description]
+Skin=Zephyr Lauds
+Author=dv
+Email=
+Icon=/icon.png
+
+[Border]
+red=189
+green=195
+blue=199
+width=0
+
+[Background]
+back_image=/back.png
+left_corner=/back.png
+right_corner=/back.png

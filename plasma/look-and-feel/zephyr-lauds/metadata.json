@@ -1,0 +1,19 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "lipinski.j@pm.me",
+                "Name": "divinae"
+            }
+        ],
+        "Description": "Zephyr Lauds (light) — Zephyr layout with a palette derived from Compline/Lauds",
+        "Id": "zephyr-lauds",
+        "License": "GPL-3.0",
+        "Name": "Zephyr Lauds",
+        "Website": "https://github.com/divinae/zephyr-theme"
+    },
+    "Keywords": "Desktop;Workspace;Appearance;Look and Feel;",
+    "X-Plasma-APIVersion": "2",
+    "X-Plasma-MainScript": "default"
+}

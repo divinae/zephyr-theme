@@ -1,0 +1,13 @@
+[Unit]
+Description=Watch Plasma color scheme and sync apps (konsole, slack, sysmon)
+After=plasma-core.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=@REPO@/scripts/theme-watch.sh
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=graphical-session.target
