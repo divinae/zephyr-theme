@@ -46,11 +46,12 @@ apply() {
         profile="Profile - Zephyr ${scheme#Zephyr}"   # Profile - Zephyr Lauds
         yakuake_skin="Zephyr ${scheme#Zephyr}"
     elif [ "$mode" = "dark" ]; then
+        # Other schemes: Konsole's plain profiles, Yakuake still a Zephyr skin by light/dark
         profile="Profile - Dark"
-        yakuake_skin="Slate"
+        yakuake_skin="Zephyr Compline"
     else
         profile="Profile - Light"
-        yakuake_skin="Slate Light"
+        yakuake_skin="Zephyr Lauds"
     fi
     # Match Yakuake background to the active Konsole profile's color scheme.
     yakuake_bg=$(profile_bg "$profile")
