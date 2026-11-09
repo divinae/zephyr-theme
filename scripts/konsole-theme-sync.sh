@@ -77,10 +77,16 @@ apply() {
     kwriteconfig6 --file yakuakerc --group "Desktop Entry" \
         --key DefaultProfile "${profile}.profile"
     # Yakuake skin (applies on next Yakuake start; no live-reload D-Bus exists).
-    kwriteconfig6 --file yakuakerc --group Appearance \
-        --key Skin "$yakuake_skin"
-    kwriteconfig6 --file yakuakerc --group Appearance \
-        --key SkinInstalledWithKns true
+    # Only a skin that's installed: Yakuake silently falls back to its default for a
+    # missing one, so say so in the service's log instead and keep the current skin.
+    if [ -d "${XDG_DATA_HOME:-$HOME/.local/share}/yakuake/kns_skins/$yakuake_skin" ]; then
+        kwriteconfig6 --file yakuakerc --group Appearance \
+            --key Skin "$yakuake_skin"
+        kwriteconfig6 --file yakuakerc --group Appearance \
+            --key SkinInstalledWithKns true
+    else
+        echo "yakuake: skin '$yakuake_skin' isn't installed; run install.sh from the zephyr-theme checkout" >&2
+    fi
     [ -n "$yakuake_bg" ] && kwriteconfig6 --file yakuakerc --group Appearance \
         --key BackgroundColor "$yakuake_bg"
 
