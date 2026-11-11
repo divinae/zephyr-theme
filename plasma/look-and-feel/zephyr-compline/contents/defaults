@@ -22,7 +22,3 @@ theme=Breeze
 
 [plasmarc][Theme]
 name=zephyr-dark
-
-[ksplashrc][KSplash]
-Theme=None
-Engine=none
